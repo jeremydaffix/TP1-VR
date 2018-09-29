@@ -1,0 +1,12 @@
+
+Le système de trees fournit déjà un système de colliders, pas besoin de rajouter un capsulecollider.
+
+Uniquement un Prefab utilisant BoxBoy pour le dossier Prefabs.
+
+Texture Iron pour les pièces (moins chères que les pièces en or).
+
+Plutôt que d'utiliser des GameObject.Find(), mettre des propriétés publiques et glisser dessus l'objet dans l'éditeur.
+
+
+https://assetstore.unity.com/packages/2d/textures-materials/abstract/early-prototyping-material-kit-51761
+
