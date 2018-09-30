@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 23180362036696546}
   - component: {fileID: 136189423983260518}
   - component: {fileID: 82614817675129180}
-  - component: {fileID: 136785752871528696}
   - component: {fileID: 114972594490351922}
   m_Layer: 0
   m_Name: CoinCoin
@@ -60,7 +59,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 8765f6007816a4345ab60c0bd8d227e1, type: 2}
+  - {fileID: 2100000, guid: 588b3fc0c7eaa429f888a351c43c55c5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -193,6 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bdb0a248b3714377972e35c9187e644, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  worldObject: {fileID: 0}
 --- !u!136 &136189423983260518
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -206,16 +206,3 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!136 &136785752871528696
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1268490418486650}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 8.205466
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.84279996, z: 0}
