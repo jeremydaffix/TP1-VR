@@ -13,7 +13,8 @@ Ajout d'un rigidbody et d'un collider à BoxBoy et aux plans, en plus des cubes.
 Afin que tout soit correctement géré par le moteur physique, il vaut mieux utiliser la méthode Moveposition() du RigidBody :
 rb.MovePosition(rb.transform.position + new Vector3(x, 0, -y));
 
-https://assetstore.unity.com/packages/2d/textures-materials/abstract/early-prototyping-material-kit-51761
+Ressources fournies sur Moodle
+Texures supplémentaires : https://assetstore.unity.com/packages/2d/textures-materials/abstract/early-prototyping-material-kit-51761
 
 
 Architecture du projet :
